@@ -1,7 +1,9 @@
+/* eslint-disable indent */
 module.exports = {
   env: {
     browser: true,
     es6: true,
+    node: true,
     "jest/globals": true,
   },
   extends: ["eslint:recommended", "plugin:react/recommended"],
@@ -14,10 +16,10 @@ module.exports = {
   },
   plugins: ["react", "jest"],
   rules: {
-    indent: ["error", 2],
+    indent: ["error"],
     "linebreak-style": ["error", "unix"],
-    quotes: ["error", "single"],
-    semi: ["error", "never"],
+    quotes: ["error"],
+    semi: ["error"],
     eqeqeq: "error",
     "no-trailing-spaces": "error",
     "object-curly-spacing": ["error", "always"],
