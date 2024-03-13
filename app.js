@@ -10,7 +10,6 @@ app.get("/version", (req, res) => {
 });
 
 app.get("/health", (req, res) => {
-  console.log("terveys kunnossa");
   res.send("ok");
 });
 
